@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+   
+}
+body{
+    overflow-x: hidden;
+}
+
+.content{
+    
+    margin-left: 5%;
+    
+}
+.hero{
+    background-image: url(HeroBackDecore.png);
+    background-repeat:no-repeat ;
+    background-position:100% 3%;
+    background-size: 50%;
+}
+.navigation-bar{
+    display: flex;
+    max-width: 100%;
+    justify-content:safe;
+    position: relative;
+    padding-top: 5%;
+
+    gap:15%;
+    
+    
+}
+.logo-container{
+    
+    margin-bottom: 5%;
+
+}
+.jadoo-logo{
+    width: 120%;
+    height: auto;
+}
+.navigation-services-bar{
+    margin-right: 5%;
+    
+}
+.navigation-service-list{
+    display: flex;
+    gap: 20%;
+    list-style: none;
+    
+    
+}
+.nav-service-item{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: larger;
+}
+.nav-service-item-link:link{
+    color:black;
+    text-decoration: none;
+}
+.nav-service-item-link:visited{
+    color: black;
+}
+.navigation-entry-list{
+    display: flex;
+    gap:25%;
+    list-style: none;
+}
+.nav-bar-signup{
+    margin-right: 1%;
+    
+}
+.nav-bar-button{
+    border-radius:12%;
+    position: relative;
+    bottom: 25%;
+    border-width: 0.009em;
+    width: 150%;
+    padding: 0.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    background-color: transparent;
+    
+}
+
+.hero-button-link:link{
+    text-decoration: none;
+    color: #686d77;
+}
+.hero-button-link:visited{
+    color: #686d77;
+}
+
+.hero-button-div{
+    display: flex;
+    gap: 5%;
+}
+.hero-text-buttons{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+}
+.hero-main{
+    display:flex;
+}
+.hero-woman{
+    position: relative;
+    top:-5%;
+    right:10%;
+    display: block;
+    width: auto;
+    padding: 0;
+    height: 80%;
+    transition:0.5s;
+}
+
+
+
+.hero-text-3{
+    color:#5E6282;
+    font-size: larger;
+    word-spacing:0.1vh;
+
+    
+}
+.hero-images:hover .hero-woman{
+    transition: 0.1s;
+    translate: 2%;
+}
+.hero-images:hover .hero-plane-1{
+    transition: 1s;
+    
+        
+    translate: 60% -100% ;
+    
+    transform:skewX(5%);
+}
+.hero-images:hover .hero-plane-2{
+    transition: 1s;
+    
+        
+    translate: 60% -100% ;
+    
+    transform:skewX(5%);
+}
+.hero-plane-1{
+    position: relative;
+    left: 0%;
+    top: -84%;
+    transition: 1s;
+}
+
+.hero-plane-2{
+    position: relative;
+    top:-78%;
+    left: 50%;
+    transition: 0.5s;
+}
+.hero-text-1{
+    color: #DF6951;
+    font-weight: bolder;
+    font-size: 2em;
+    letter-spacing:-0.2vb
+}
+.hero-text h1{
+    display: inline;
+}
+.hero-text-2{
+    font-size:5em;
+    font-family: 'Volkhov',serif;
+    display: inline-block;
+    line-height:5rem ;
+    color: #181e4b;
+    margin-top: 4%;
+    margin-bottom: 0;
+    margin-right: 5%;
+    
+}
+.hero-orange-decore{
+    background-image: url("HeroTextDecore.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    display: inline;
+}
+.hero-button-1{
+    background-color:#F1A501;
+    color: white;
+    padding: 2%;
+    border-radius: 10%;
+    border-style: none;
+    
+}
+
+.hero-button-2{
+    background-color: #DF6951;
+    border-style: none;
+    border-radius: 80%;
+    padding: 2%;
+    color: white;
+}
+.hero-button-link{
+    position: relative;
+    top:30%;
+    color:#686d77;
+}
+

@@ -1,0 +1,29 @@
+.all-logos{
+    display: flex;
+    gap: 7%;
+}
+.logos{
+    margin-bottom: 6%;
+}
+.all-logos img{
+    width: auto;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.all-logos img:hover{
+    translate: 8%;
+    transform: scale(1.4);
+    transition: 0.5s;
+}
+.logo4{
+    margin-top: 42%;
+}
+.logo5{
+    margin-top: 70%;
+}
+.logo3{
+    margin-top: 2%;
+}
+.imgcontainer2{
+    margin-right: 2%;
+}

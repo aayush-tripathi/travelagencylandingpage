@@ -1,0 +1,44 @@
+.testimonials{
+    margin-top: 2%;
+    margin-bottom: 10%;
+    display: flex;
+}
+
+.test-subhead{
+    color: #5e6282;
+    font-size:1.5vw;
+    font-family: 'Poppins', sans-serif;
+}
+.testimonials h1{
+  font-size: 3vw;
+  color:#14183e;
+  font-family: 'Volkhov',serif;
+  text-align: start;
+  max-width: 80%;
+  display: block;
+
+}
+.testimonials img{
+  position: relative;
+  top:10%;
+  right:5%;
+  transition: 1s;
+}
+.testcontent{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+
+  color: #5e6282;
+  font-size:1.5vw;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  width:80%;
+  height: auto;
+  padding: 5% 2%;
+  text-align: start;
+}
+.testimonials img:hover{
+  transition:1s;
+  translate: 0% 300%;
+}
+
